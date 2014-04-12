@@ -105,23 +105,23 @@ Define una contenido alternativo a mostrar cuando el navegador no soporta script
 <body>
 Representa el contenido principal de un documento HTML. Solo hay un elemento <body> en un documento.
 <section> 
-This element has been added in HTML5	Define una sección en un documento.
+Define una sección en un documento.
 <nav> 
-This element has been added in HTML5	Define una sección que solamente contiene enlaces de navegación
+Define una sección que solamente contiene enlaces de navegación
 <article> 
-This element has been added in HTML5	Define contenido autónomo que podría existir independientemente del resto del contenido.
+Define contenido autónomo que podría existir independientemente del resto del contenido.
 <aside> 
-This element has been added in HTML5	Define algunos contenidos vagamente relacionados con el resto del contenido de la página. Si es removido, el contenido restante seguirá teniendo sentido
+Define algunos contenidos vagamente relacionados con el resto del contenido de la página. Si es removido, el contenido restante seguirá teniendo sentido
 <h1>,<h2>,<h3>,<h4>,<h5>,<h6>	
 Los elemento de cabecera  implementan seis niveles de cabeceras de documentos; <h1> es la de mayor y <h6> es la de menor impotancia. Un elemento de cabecera describe brevemente el tema de la sección que introduce.
 <header> 
-This element has been added in HTML5	Define la cabecera de una página o sección. Usualmente contiene un logotipo, el título del sitio Web y una tabla de navegación de contenidos.
+Define la cabecera de una página o sección. Usualmente contiene un logotipo, el título del sitio Web y una tabla de navegación de contenidos.
 <footer> 
-This element has been added in HTML5	Define el pie de una página o sección. Usualmente contiene un mensaje de derechos de autoría, algunos enlaces a información legal o direcciones para dar información de retroalimentación.
+Define el pie de una página o sección. Usualmente contiene un mensaje de derechos de autoría, algunos enlaces a información legal o direcciones para dar información de retroalimentación.
 <address>	
 Define una sección que contiene información de contacto.
 <main>
-This element has been added in HTML5	Define el contenido principal o importante en el documento. Solamente existe un elemento <main> en el documento.
+Define el contenido principal o importante en el documento. Solamente existe un elemento <main> en el documento.
 ```
 ###Agrupación de Contenido
 ```html
@@ -146,9 +146,9 @@ Representa un término definido por el siguiente <dd>.
 <dd>	
 Representa la definición de los terminos listados antes que él.
 <figure> 
-This element has been added in HTML5	Representa una figura ilustrada como parte  del documento.
+Representa una figura ilustrada como parte  del documento.
 <figcaption> 
-This element has been added in HTML5	Representa la leyenda de una figura.
+Representa la leyenda de una figura.
 <div>	
 Representa un contenedor genérico sin ningún significado especial.
 ```
@@ -173,9 +173,9 @@ Representa un término cuya  definición  está contenida en su contenido ancest
 <abbr>	
 Representa una  abreviación  o un  acrónimo ; la expansión de la abreviatura puede ser representada por el atributo title.
 <data> 
-This element has been added in HTML5	Asocia un equivalente legible por máquina a sus contenidos. (Este elemento está sólamente en la versión de la  WHATWG del estandar HTML, y no en la versión de la W3C de HTML5).
+Asocia un equivalente legible por máquina a sus contenidos. (Este elemento está sólamente en la versión de la  WHATWG del estandar HTML, y no en la versión de la W3C de HTML5).
 <time> 
-This element has been added in HTML5	Representa un valor de fecha y hora; el equivalente legible por máquina puede ser representado en el atributo datetime.
+Representa un valor de fecha y hora; el equivalente legible por máquina puede ser representado en el atributo datetime.
 <code>	
 Representa un código de  ordenador .
 <var>	
@@ -193,17 +193,17 @@ Representa un texto hacia el cual se llama la atención para  propósitos utilit
 <u>	
 Representa una anotación no textual sin-articular, como etiquetar un texto como mal escrito o etiquetar un nombre propio en texto en Chino.
 <mark> 
-This element has been added in HTML5	Representa texto resaltado con propósitos de referencia, es decir por su relevancia en otro contexto.
+Representa texto resaltado con propósitos de referencia, es decir por su relevancia en otro contexto.
 <ruby> 
-This element has been added in HTML5	
+
 Representa contenidos a ser marcados con anotaciones ruby,  recorridos cortos de texto presentados junto al texto. Estos son utilizados con regularidad en conjunto a lenguajes de Asia del Este, donde las anotaciones actúan como una guía para la pronunciación, como el furigana Japonés.
 
 <rt> 
-This element has been added in HTML5	Representa el  texto de una anotación ruby .
+Representa el  texto de una anotación ruby .
 <rp> 
-This element has been added in HTML5	Representa los paréntesis alrededor de una anotación ruby, usada para mostrar la anotación de manera alterna por los navegadores que no soporten despliegue estandar para las anotaciones.
+Representa los paréntesis alrededor de una anotación ruby, usada para mostrar la anotación de manera alterna por los navegadores que no soporten despliegue estandar para las anotaciones.
 <bdi> 
-This element has been added in HTML5	Representa un texto que debe ser aislado de sus alrededores para el formateado bidireccional del texto.  Permite incrustar un fragmento de texto con una direccionalidad diferente o desconocida.
+Representa un texto que debe ser aislado de sus alrededores para el formateado bidireccional del texto.  Permite incrustar un fragmento de texto con una direccionalidad diferente o desconocida.
 <bdo>	
 Representa la direccionalidad de sus descendientes con el fin de anular de forma explícita al algoritmo bidireccional Unicode.
 <span>
@@ -211,7 +211,7 @@ Representa texto sin un significado específico.  Este debe ser usado cuando nin
 <br>	
 Representa un salto de línea.
 <wbr> 
-This element has been added in HTML5	Representa una oportunidad de salto de línea, es decir, un punto sugerido de envoltura donde el texto de múltiples líneas puede ser dividido para mejorar su legibilidad.
+Representa una oportunidad de salto de línea, es decir, un punto sugerido de envoltura donde el texto de múltiples líneas puede ser dividido para mejorar su legibilidad.
 ```
 ###Ediciones
 ```html
@@ -227,29 +227,29 @@ Representa una imagen.
 <iframe>	
 Representa un contexto anidado de navegación, es decir, un documento HTML embebido.
 <embed> 
-This element has been added in HTML5	Representa un punto de integración para una aplicación o contenido interactivo externo que por lo general no es HTML.
+Representa un punto de integración para una aplicación o contenido interactivo externo que por lo general no es HTML.
 <object>	
 Representa un recurso externo, que será tratado como una imagen, un sub-documento HTML o un recurso externo a ser procesado por un  plugin.
 <param>	
 Define parámetros para el uso por los plugins invocados por los elementos <object>.
 <video> 
-This element has been added in HTML5	Representa un  video , y sus archivos de audio y capciones asociadas, con la interfaz necesaria para reproducirlos. 
+Representa un  video , y sus archivos de audio y capciones asociadas, con la interfaz necesaria para reproducirlos. 
 <audio> 
-This element has been added in HTML5	Representa un sonido o stream de audio.
+Representa un sonido o stream de audio.
 <source> 
-This element has been added in HTML5	Permite a autores o autoras especificar recursos multimedia alternativos para los elementos multimedia como  <video> o <audio>.
+Permite a autores o autoras especificar recursos multimedia alternativos para los elementos multimedia como  <video> o <audio>.
 <track> 
-This element has been added in HTML5	Permite a autores o autoras especificar una pista de texto temporizado para elementos multimedia como <video> o   <audio>.
+Permite a autores o autoras especificar una pista de texto temporizado para elementos multimedia como <video> o   <audio>.
 <canvas> 
-This element has been added in HTML5	Representa un  área de mapa de bits  en el que se pueden utilizar scripts para renderizar gráficos como gráficas, gráficas de juegos o cualquier imagen visual al vuelo.
+Representa un  área de mapa de bits  en el que se pueden utilizar scripts para renderizar gráficos como gráficas, gráficas de juegos o cualquier imagen visual al vuelo.
 <map>	
 En conjunto con <area>, define un mapa de imagen.
 <area>	
 En conjunto con  <map>, define un mapa de imagen.
 <svg> 
-This element has been added in HTML5	Define una imagen vectorial embebida.
+Define una imagen vectorial embebida.
 <math> 
-This element has been added in HTML5	Define una fórmula matemática.
+Define una fórmula matemática.
 ```
 ###Datos tabulares
 ```html
@@ -291,7 +291,7 @@ Representa un  botón .
 <select>	
 Represents un control que permite la selección entre un conjunto de opciones.
 <datalist> 
-This element has been added in HTML5	Representa un conjunto de opciones predefiniddas para otros controles.
+Representa un conjunto de opciones predefiniddas para otros controles.
 <optgroup>	
 Representa un conjunto de opciones, agrupadas lógicamente.
 <option>	
@@ -299,21 +299,22 @@ Representa una opción en un elemento <select>, o una sugerencia de un elemento 
 <textarea>	
 Representa un control de edición de texto multi-línea.
 <keygen> 
-This element has been added in HTML5	Representa un control de par generador de llaves.
+Representa un control de par generador de llaves.
 <output> 
-This element has been added in HTML5	Representa el resultado de un cálculo.
+Representa el resultado de un cálculo.
 <progress> 
-This element has been added in HTML5	Representa el progreso de finalización de una tarea.
+Representa el progreso de finalización de una tarea.
 <meter> 
-This element has been added in HTML5	Representa la medida escalar (o el valor fraccionario) dentro de un rango conocido.
+Representa la medida escalar (o el valor fraccionario) dentro de un rango conocido.
 ```
 ###Elementos interactivos
 ```html
 <details> 
-This element has been added in HTML5	Representa un widget desde el que un usuario o usuaria puede obtener información o controles adicionales.
+Representa un widget desde el que un usuario o usuaria puede obtener información o controles adicionales.
 <summary> 
-This element has been added in HTML5	Representa un resumen, título o leyenda para un elemento  <details> dado.
+Representa un resumen, título o leyenda para un elemento  <details> dado.
 <command> 
-This element has been added in HTML5	Representa un comando que un usuario o usuaria puede invocar.
-<menu> This element has been added in HTML5	Representa una lista de comandos .
+Representa un comando que un usuario o usuaria puede invocar.
+<menu> 
+Representa una lista de comandos .
 ```

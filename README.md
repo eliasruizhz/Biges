@@ -58,7 +58,8 @@ $('body').html("");
 ```js
 //Obtenemos la longitud del TAG superior
 var $w = $(this).width();
-//
+//NO ES NECESARIO PARA LAS PROPIEDADES DE 'WEBKIT' DECLARARLAS PARA COMPATIBILIDAD
+$('#'+id).bigCSS("background","linear-gradient(top, #575757, #000000)");
 $('#'+id).bigCSS("display","inline-block");
 //    ↑     ↑        ↑           ↑
 // TAG ID  BIG   PROPIEDAD     VALOR

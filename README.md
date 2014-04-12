@@ -36,7 +36,7 @@ $('body').html("");
 	//id = ATRIBUTO ID DEL TAG ELEGIDO
 	//name = NOMBRE DEL TAG ELEGIDO
 	//class = CLASE CSS QUE SE LE DARA AL TAG ELEGIDO
-	//contenido = SI SE LLEGARA A OCUPAR / SI NO SOLO INDICAR LA VARIABLE BACIA
+	//contenido = SI SE LLEGARA A OCUPAR / SI NO SOLO INDICAR LA VARIABLE BACÍA
 	//strap = LAS COLUMNAS EN LA QUE SI DIVIDIRA EL "width"
 	//El documento lo empezaremos desde Body
 	//$('body').nuevo(n,id,name,clase,contenido,strap);

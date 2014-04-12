@@ -85,7 +85,7 @@ $('#'+id).bigCSS("width",([$w/strap]-[strap*5])+"px");
 La mas importante de estas agrupaciones es `Secciones` ya que son las etiquetas que destacaran en la primera jerarquia a la hora de maquetar su sitio web. La segunda en importancia es `Semántica a nivel de Texto` la cual nos permitira maquetar el contenido dentro de `Agrupación de Contenido`.
 
 Las agrupaciones: `Contenido incrustado, Datos tabulares, Formularios` son agrupaciones de tercera importancia debido a su utilidad "real" de una interfaz de contenidos.
-
+```
  + Secciones
  |
  |__ + Agrupación de Contenido
@@ -97,9 +97,10 @@ Las agrupaciones: `Contenido incrustado, Datos tabulares, Formularios` son agrup
  |__ + Datos tabulares
  |
  |__ + Formularios
-
+```
 ************************************************************************************************************************
 ************************************************************************************************************************
+#Lee detenidamente la siguiente guía de HTML5
 ************************************************************************************************************************
 ************************************************************************************************************************
 

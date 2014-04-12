@@ -12,11 +12,11 @@ Framework de JavaScript para sitios rápidos y eficaces.
 
 El archivo principal es `/index.html`.
 
-Es el encargado de procesar `/pages/view.js` `/biges/bigCSS.js` 
+Es el encargado de procesar `/pages/view.js` `/bin/bigCSS.js` 
 
 Esta libreria tambien depende de:
   * `jquery.min.js`  [Ver página oficial](http://jquery.com/)
-  * `bigstrap/normalize.css`  [Ver página oficial](https://github.com/necolas/normalize.css/)
+  * `bigstrap.css or normalize.css`  [Ver página oficial](https://github.com/necolas/normalize.css/)
   * `tester.js` & `tester.css`
   * `view.js`
 

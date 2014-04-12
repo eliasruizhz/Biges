@@ -73,6 +73,36 @@ $('#'+id).bigCSS("width",([$w/strap]-[strap*5])+"px");
 
 ######Para poder hacer uso correcto de las platillas CSS de `Biges` le recomendamos respetar las gerarquias que se han establecido para la correcta visualización de la misma.
 
+###Primerame hay que destacar las siguientes agrupaciones de los tags html:
+
+ * Secciones
+ * Agrupación de Contenido
+ * Semántica a nivel de Texto
+ * Contenido incrustado
+ * Datos tabulares
+ * Formularios
+
+La mas importante de estas agrupaciones es `Secciones` ya que son las etiquetas que destacaran en la primera jerarquia a la hora de maquetar su sitio web. La segunda en importancia es `Semántica a nivel de Texto` la cual nos permitira maquetar el contenido dentro de `Agrupación de Contenido`.
+
+Las agrupaciones: `Contenido incrustado, Datos tabulares, Formularios` son agrupaciones de tercera importancia debido a su utilidad "real" de una interfaz de contenidos.
+
+ + Secciones
+ |
+ |__ + Agrupación de Contenido
+ |   |
+ |   |__ + Semántica a nivel de Texto
+ |
+ |__ + Contenido incrustado
+ |
+ |__ + Datos tabulares
+ |
+ |__ + Formularios
+
+************************************************************************************************************************
+************************************************************************************************************************
+************************************************************************************************************************
+************************************************************************************************************************
+
 ###Elemento raíz
 ```html
 <html>

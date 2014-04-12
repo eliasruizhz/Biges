@@ -4,11 +4,21 @@ Framework de JavaScript para sitios rápidos y eficaces.
 
 ##Instalación
 
+######1. Clonar el repositorio el cual ya contiene toda la estructura para su aplicación web.
+######2. Leer la API de todas las dependencias que necesitara ocupar.
+######3. Modificar el principal archivo llamado `/pages/view.js`.
+######4. Esta libreria es compatible con `NODE.JS` y todas las dependencias de `NPM`.
+######5. La mayoria de los ejemplos que encontrara son relacionados con `EXPRESS` & `SOCKET.IO`.
+
 El archivo principal es `/index.html`.
 
 Es el encargado de procesar `/pages/view.js` `/biges/bigCSS.js` 
 
-Esta libreria tambien depende de `JQUERY 9/10`
+Esta libreria tambien depende de:
+  * `jquery.min.js`  [Ver página oficial](http://jquery.com/)
+  * `bigstrap/normalize.css`  [Ver página oficial](https://github.com/necolas/normalize.css/)
+  * `tester.js` & `tester.css`
+  * `view.js`
 
 ##API - BigJS
 

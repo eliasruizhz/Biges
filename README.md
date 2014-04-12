@@ -56,8 +56,15 @@ $('body').html("");
   * Usted podra personalizar sus estilos CSS con BigCSS convinadolas con el potencial de JavaScript
 
 ```js
+//Obtenemos la longitud del TAG superior
 var $w = $(this).width();
+//
 $('#'+id).bigCSS("display","inline-block");
+//    ↑     ↑        ↑           ↑
+// TAG ID  BIG   PROPIEDAD     VALOR
 $('#'+id).bigCSS("vertical-align","top");
 $('#'+id).bigCSS("width",([$w/strap]-[strap*5])+"px");
+//                              ↑                 ↑
+//                           FORMULAS          VALORES     
+//                          MATEMATICAS   NUMERICOS & TEXTO
 ```

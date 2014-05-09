@@ -1,0 +1,14 @@
+#mns{
+	position: absolute;
+	padding: 5px;
+	border: 1px #eee solid;
+	background: rgba(0,0,0,.8);
+	color: #eee;
+	width: 100px;
+	height: auto;
+	box-shadow: 0 0 4px #eee;
+	display: none;
+	font-size: 10px;
+}#mns b{
+	color: #1FACFD;
+}
